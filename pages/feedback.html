@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://www.cankings.com/pages/feedback.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<link rel="stylesheet" href="./feedback_files/styles.css">
+		<link rel="shortcut icon" href="http://www.cankings.com/pages/favicon.ico">
+		<title>Feedback Can Kings</title>
+		<style>
+		#wrapper{height:600px; }
+		</style>
+		
+		<script type="text/javascript">
+				function check()
+				{
+				var test
+				test = document.form.visitor_name.value;
+				if ((test.length) <= 3)
+				{
+				alert("please enter your first and last name");
+				document.form.visitor_name.focus();
+				}
+				else
+				{
+				}
+				}
+		</script>
+		
+	</head>
+	
+	<body>
+	<div id="wrapper">
+		<header>
+		<!--<a href="../media/cankings.jpg" target="_blank">-->
+		<img src="./feedback_files/cankingsbanner.jpg" height="250" width="600" alt="Can Kings Banner">
+		<!--</a>-->
+		</header><!--close header-->
+		<nav>
+		<ul>
+  			<li><a href="http://www.cankings.com/index.html">Home</a></li>
+ 			<li><a href="http://www.cankings.com/pages/services.html">Services</a></li>
+			<li><a href="http://www.cankings.com/pages/donate.html">Donate</a></li>
+ 			<li><a href="http://www.cankings.com/pages/promotions.html">Promotions</a></li>
+ 			<li><a href="http://www.cankings.com/pages/feedback.html">Feedback</a></li>
+			<li><a href="http://www.cankings.com/pages/contact.html">Contact</a></li>
+  			<li><a href="http://www.cankings.com/pages/about.html">About</a></li>
+		</ul>
+		</nav><!--close nav-->
+		<section id="rightColumn">
+		<h1 class="firstLine">Feedback:</h1>
+		<div style="margin-right:auto; margin-left:auto; text-align:center; padding:2em;">
+		<form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+		<input type="hidden" name="username" value="cankings">
+		<input type="hidden" name="reqd" value="0">
+		<input type="hidden" name="url" value="http://cankings.com/">
+
+
+		<label for="visitor_name">Name:</label><input id="visitor_name" type="text" name="visitor_name" size="25" maxlength="100">
+		
+		<label for="e-mail">E-Mail:</label><input id="e-mail" type="text" name="e-mail" size="25" maxlength="100">
+		<br>
+		<br>
+        <label for="comments">Comments/Suggestions:</label><br>
+		<textarea id="comments" name="comments" rows="5" cols="60"></textarea>
+		<br>
+		<input type="submit" value="Submit Form" accesskey="r" style="margin:1em; padding:4px;" onmouseover="check();"><input type="reset" value="Reset Form" accesskey="r" style="margin:1em; padding:4px;">
+		</form>
+		</div>
+		
+		</section><!--close section-->
+		<footer>
+
+		</footer><!--close footer-->			 
+	</div><!--close pageWrapper-->
+	
+
+	 </body></html>
