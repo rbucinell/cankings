@@ -1,0 +1,42 @@
+
+
+:root {
+    --brand-main: #0e774a;
+    --brand-main-light: #4aa776;
+    --brand-main-dark: #004a22;
+    --brand-highlight: #fce010;
+    --brand-black: #1e1e1e;
+    --brand-white: #f0f0f0;
+}
+
+.jumbotron {
+    background-color: var(--brand-main);
+    background-size: contain;
+  }
+
+.debug {
+    border: 1px solid red;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: var(--brand-main);
+    border-color: var(--brand-main);
+}
+
+.btn-primary:hover{
+    background-color: var(--brand-main-light);
+    border-color: var(--brand-main-light);
+} 
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--brand-main-light);
+    border-color: var(--brand-main-dark);
+}
+
+
+#wrapper{height:800px; }
+    .firstP{margin-right:10px; }
+    p {font-size:.9em; 
+}
