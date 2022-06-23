@@ -1,23 +1,21 @@
 {
   "name": "cankings",
-  "version": "1.0.0",
-  "description": "Just a fun rewrite of a local store cankings",
-  "main": "index.js",
+  "private": true,
+  "version": "0.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rbucinell/cankings.git"
+  "dependencies": {
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.16"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rbucinell/cankings/issues"
-  },
-  "homepage": "https://github.com/rbucinell/cankings#readme",
   "devDependencies": {
-    "tailwindcss": "^3.0.24"
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.4",
+    "vite": "^2.9.9"
   }
 }
