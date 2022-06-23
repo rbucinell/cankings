@@ -9,7 +9,7 @@ const count = ref(0)
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">{{ msg }}</h1>
+  <h1 class="text-ckgreen hover:text-ckgreen_dark_2 text-3xl font-bold underline">{{ msg }}</h1>
 
   <p>
     Recommended IDE setup:
