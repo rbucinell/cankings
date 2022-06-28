@@ -10,7 +10,9 @@ const count = ref(0)
 
 <template>
   <h1 class="text-ckgreen hover:text-ckgreen_dark_2 text-3xl font-bold underline">{{ msg }}</h1>
-
+  <button class="btn btn-primary">Button</button>
+  <div class="alert alert-success shadow-lg"><span>Hello world</span>>
+  </div>
   <p>
     Recommended IDE setup:
     <a href="https://code.visualstudio.com/" target="_blank">VS Code</a>
