@@ -1,37 +1,7 @@
 <script setup>
-import CKLocation from './CKLocation.vue';
 </script>
 
-<template>
-
-  <div class="container mx-auto p-1">
-    <div class="carousel w-full md:w-1/2  mx-auto">
-      <div class="carousel-itme relative w-full" id="slide1">
-        <img src="assets/img/cankingsbanner.png" class="w-full" />
-      </div>
-    </div>
-
-    <p class="mx-auto text-lg m-4">We offer walk-in service, fundraisers, bottle drives, and a commercial pickup
-      service. All brands accepted with no limits on quantity. <br> No sorting or counting required, we do all the work and
-      make it easy for you.</p>
-    <div class="flex justify-center flex-wrap">
-      <CKLocation label="Fairport" address="1276 Fairport Rd, Fairport NY 14450"  phone="585-576-2790" map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2913.116906384995!2d-77.462825!3d43.102058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6ccacec614b31%3A0xb4ecd226513e0313!2sCan%20Kings%3A%20Bottle%20and%20Can%20Redemption%20Center!5e0!3m2!1sen!2sus!4v1656433900714!5m2!1sen!2sus"  />
-      <CKLocation label="Webster"  address="1183 Bay Rd, Webster, NY 14580"       phone="585-802-5616" map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2908.7469139707628!2d-77.50986868402784!3d43.193820979139815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6c97101ce783b%3A0xe5a477638f20cd5d!2sCan%20Kings%3A%20Bottle%20and%20Can%20Redemption%20Center!5e0!3m2!1sen!2sus!4v1656434505314!5m2!1sen!2sus"  />
-      <CKLocation label="Palmyra"  address="505 East Main St., Palmyra, NY 14522" phone="315-690-6174" map="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.9338603761275!2d-77.24732898455974!3d43.06385857914591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d12b268f214ac1%3A0x45e6b5a95eeb8f0b!2sCan%20Kings%3A%20Bottle%20and%20Can%20Redemption%20Center!5e0!3m2!1sen!2sus!4v1656439212793!5m2!1sen!2sus"  />
-    </div>
-  </div>
-
-<footer class="footer items-center p-4 mt-24 bg-ckgreen text-ckgreen_link">
-  <div class="items-center grid-flow-col">
-    <p>Copyright © 2022 - All right reserved</p>
-  </div> 
-  <div class="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-    <a href="https://www.facebook.com/cankingsfairport/"> <svg class="fill-current hover:fill-ckyellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
-    <a href="https://www.yelp.com/biz/can-kings-fairport"><svg class="fill-current hover:fill-ckyellow" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 50 50"><path d="M 21.339844 2.007813 C 18.542969 2.113281 12.75 3.855469 11.488281 5.15625 C 11.007813 5.613281 10.886719 6.300781 11.007813 6.757813 C 11.246094 7.214844 20.976563 21.980469 20.976563 21.980469 C 22.417969 24.269531 23.167969 24.015625 23.53125 23.902344 C 23.890625 23.785156 25.089844 23.355469 24.851563 20.609375 C 24.730469 17.515625 23.769531 3.898438 23.652344 3.210938 C 23.410156 2.640625 23.050781 2.179688 22.328125 2.0625 C 22.074219 2.007813 21.738281 1.992188 21.339844 2.007813 Z M 36.640625 16 C 36.359375 16.011719 36.085938 16.097656 35.847656 16.269531 C 35.097656 17.007813 35.363281 16.484375 31.046875 22.203125 L 29.003906 24.832031 C 28.523438 25.402344 28.636719 26.359375 29.117188 27.046875 C 29.597656 27.734375 30.25 28.097656 31.164063 27.921875 C 31.523438 27.804688 32.246094 27.691406 33.5625 27.347656 C 41.84375 25.519531 41.917969 25.53125 42.28125 25.304688 C 42.757813 24.960938 43 24.503906 43 23.816406 L 43 23.703125 C 42.757813 21.875 39.207031 16.957031 37.527344 16.15625 C 37.226563 16.042969 36.925781 15.984375 36.640625 16 Z M 9.390625 23.96875 C 8.910156 23.96875 8.308594 24.199219 7.945313 24.769531 C 7.105469 25.917969 6.847656 29.570313 7.085938 32.089844 C 7.207031 32.890625 7.328125 33.542969 7.566406 34 C 7.925781 34.574219 8.40625 34.917969 9.007813 34.917969 C 9.367188 34.917969 9.09375 34.8125 16.300781 32.753906 L 19.546875 31.722656 C 20.386719 31.492188 20.972656 30.917969 20.972656 30.003906 C 20.972656 29.089844 20.527344 28.332031 19.6875 27.988281 L 17.40625 27.074219 C 9.597656 23.980469 9.75 23.96875 9.390625 23.96875 Z M 31.09375 32.023438 C 30.46875 31.976563 29.882813 32.132813 29.4375 32.609375 C 29.050781 33.03125 28.757813 34.230469 29.238281 34.917969 L 30.558594 36.859375 C 34.882813 43.5 34.90625 43.839844 35.265625 44.070313 C 35.746094 44.527344 36.347656 44.53125 36.949219 44.300781 C 38.871094 43.613281 42.628906 39.0625 42.867188 37.230469 C 42.988281 36.660156 42.75 36.085938 42.265625 35.515625 C 42.027344 35.285156 41.527344 35.203125 34.796875 33.113281 L 31.71875 32.136719 C 31.511719 32.078125 31.300781 32.039063 31.09375 32.023438 Z M 23.0625 34.03125 C 22.417969 33.960938 21.796875 34.089844 21.4375 34.605469 L 19.875 36.433594 C 14.46875 42.5 14.230469 42.84375 14.109375 43.1875 C 13.988281 43.417969 13.988281 43.644531 13.988281 43.875 C 14.109375 44.214844 14.230469 44.445313 14.46875 44.789063 C 15.789063 46.164063 21.625 48.308594 23.546875 47.964844 C 24.148438 47.851563 24.628906 47.503906 24.867188 46.933594 C 24.988281 46.589844 24.984375 46.363281 24.984375 39.152344 L 24.984375 35.832031 C 24.988281 34.828125 24.546875 34.496094 23.703125 34.152344 C 23.496094 34.09375 23.277344 34.050781 23.0625 34.03125 Z"/></svg></a>
-  </div>
-</footer>
-
-  <!--<h1 class="text-ckgreen hover:text-ckgreen_dark_2 text-3xl font-bold underline">{{ msg }}</h1>
+<template><h1 class="text-ckgreen hover:text-ckgreen_dark_2 text-3xl font-bold underline">{{ msg }}</h1>
   <button class="btn btn-primary">Button</button>
   <div class="alert alert-success shadow-lg"><span>Hello world</span>>
   </div>
@@ -54,7 +24,7 @@ import CKLocation from './CKLocation.vue';
   <p>
     Edit
     <code>components/HelloWorld.vue</code> to test hot module replacement.
-  </p> -->
+  </p>
 </template>
 
 <style scoped>
