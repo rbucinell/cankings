@@ -19,11 +19,11 @@
                 </div>
                 <div class="flex-none hidden md:block">
                     <ul class="menu menu-horizontal">
-                        <li><a>Services</a></li>
-                        <li><a>Donate</a></li>
-                        <li><a>Promotions</a></li>
-                        <li><a>Feedback</a></li>
-                        <li><a>About</a></li>
+                        <li class="hover:text-ckgreen hover:font-semibold"><a>Services</a></li>
+                        <li class="hover:text-ckgreen hover:font-semibold"><a>Donate</a></li>
+                        <li class="hover:text-ckgreen hover:font-semibold"><a>Promotions</a></li>
+                        <li class="hover:text-ckgreen hover:font-semibold"><a>Feedback</a></li>
+                        <li class="hover:text-ckgreen hover:font-semibold"><a>About</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,6 +43,7 @@
             </ul>
 
         </div>
+
     </div>
 
 </template>
