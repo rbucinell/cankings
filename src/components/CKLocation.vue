@@ -19,13 +19,6 @@ const toTel = computed(()=> `tel:${props.phone}`)
       </p>
       <p class="grow-0"><PhoneIcon class="h-6 inline mr-1"/><a :href="toTel" class="text-sm lg:text-lg">{{phone}}</a></p>
     </div>
-      <figure>
-        <iframe :src="map"
-                width="400" 
-                height="300" allowfullscreen="" 
-                loading="lazy" 
-                referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </figure>
+    <iframe :src="map" width="400" height="300" loading="lazy" referrerpolicy="no-referrer-when-downgrade" />
   </div>
 </template>
