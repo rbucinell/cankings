@@ -4,6 +4,9 @@ module.exports = {
     "./index.html",
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  daisyui:{
+    themes: ["lemonade", "forest"]
+  },
   theme: {
     colors:{
       transparent: 'transparent',
@@ -23,5 +26,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('daisyui')],
 }
