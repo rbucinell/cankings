@@ -1,3 +1,9 @@
+<style scoped></style>
+
+<script setup>
+import CKFooter from './CKFooter.vue';
+</script>
+
 <template>
     <div class="drawer">
         <input id="my-drawer-3" type="checkbox" class="drawer-toggle" />
@@ -29,6 +35,7 @@
             </div>
             <!-- Page content here -->
             <slot>Content</slot>
+            <CKFooter/>
         </div>
         <div class="drawer-side">
             <label for="my-drawer-3" class="drawer-overlay"></label>
@@ -41,18 +48,7 @@
                 <li><a>Feedback</a></li>
                 <li><a>About</a></li>
             </ul>
-
         </div>
-
     </div>
-
 </template>
 
-<script>
-export default {
-
-}
-</script>
-
-<style>
-</style>
