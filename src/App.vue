@@ -7,8 +7,7 @@ import NavBar from './components/NavBar.vue';
 
 <template>
   <NavBar>
-    <img alt="Vue logo" src="assets/img/cankingsbanner.jpg" />
-    <HelloWorld msg="Hello Vue 3 + Vite" />
+    <HelloWorld />
   </NavBar>
 </template>
 
