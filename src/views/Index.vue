@@ -1,19 +1,17 @@
 <script setup>
 import CKLocation from '../components/CKLocation.vue';
+import CKHero from '../components/CKHero.vue';
 </script>
 
 <template>
     <div class="container mx-auto p-1">
-        <div class="carousel w-full md:w-1/2  mx-auto">
-            <div class="carousel-itme relative w-full" id="slide1">
-                <img src="assets/img/cankingsbanner.png" class="w-full" />
-            </div>
-        </div>
+        <CKHero />
 
         <p class="mx-auto text-lg m-4">We offer walk-in service, fundraisers, bottle drives, and a commercial pickup
             service. All brands accepted with no limits on quantity. <br> No sorting or counting required, we do all the
             work and
             make it easy for you.</p>
+            
         <div class="flex justify-center flex-wrap">
             <CKLocation label="Fairport" address="1276 Fairport Rd, Fairport NY 14450" phone="585-576-2790"
                 map="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2913.116906384995!2d-77.462825!3d43.102058!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d6ccacec614b31%3A0xb4ecd226513e0313!2sCan%20Kings%3A%20Bottle%20and%20Can%20Redemption%20Center!5e0!3m2!1sen!2sus!4v1656433900714!5m2!1sen!2sus" />
