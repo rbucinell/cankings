@@ -3,12 +3,13 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue';
-import Views from './views/Index.vue';
+import Index from './views/Index.vue';
+import Services from './views/Services.vue';
 </script>
 
 <template>
   <NavBar>
-    <Views />
+    <Index />
   </NavBar>
 </template>
 
