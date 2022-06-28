@@ -6,9 +6,6 @@ import { LocationMarkerIcon, PhoneIcon } from '@heroicons/vue/outline'
 import { computed } from '@vue/runtime-core'
 const props = defineProps(['label', 'address', 'phone', 'map'])
 const toTel = computed(()=> `tel:${props.phone}`)
-console.log(props)
-
-
 </script>
 
 <template>
@@ -18,9 +15,9 @@ console.log(props)
       <h2 class="card-title"> {{label}}</h2>
       <p class="grow-0">
         <LocationMarkerIcon class="h-6 inline mr-1" />
-        <span>{{address}}</span>
+        <span class="text-sm lg:text-lg">{{address}}</span>
       </p>
-      <p class="grow-0"><PhoneIcon class="h-6 inline mr-1"/><a :href="toTel">{{phone}}</a></p>
+      <p class="grow-0"><PhoneIcon class="h-6 inline mr-1"/><a :href="toTel" class="text-sm lg:text-lg">{{phone}}</a></p>
     </div>
       <figure>
         <iframe :src="map"
