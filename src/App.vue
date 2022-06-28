@@ -5,11 +5,12 @@ import HelloWorld from './components/HelloWorld.vue'
 import NavBar from './components/NavBar.vue';
 import Index from './views/Index.vue';
 import Services from './views/Services.vue';
+import Donate from './views/Donate.vue'
 </script>
 
 <template>
   <NavBar>
-    <Index />
+    <Donate />
   </NavBar>
 </template>
 
