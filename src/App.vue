@@ -6,11 +6,12 @@ import NavBar from './components/NavBar.vue';
 import Index from './views/Index.vue';
 import Services from './views/Services.vue';
 import Donate from './views/Donate.vue'
+import Promotions from './views/Promotions.vue'
 </script>
 
 <template>
   <NavBar>
-    <Donate />
+    <Promotions />
   </NavBar>
 </template>
 
